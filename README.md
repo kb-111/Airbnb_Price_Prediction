@@ -36,10 +36,23 @@ Two models were implemented:
 
 - XGBoost achieved better performance than Linear Regression, indicating the presence of nonlinear patterns in the data.
 - Feature importance from XGBoost highlighted `room_type` and certain neighborhoods as key drivers of price.
+  
+## 📊 Evaluation
+| Model             | R² Score | RMSE   |
+|------------------|----------|--------|
+| Linear Regression | 0.0739   | 230.60 |
+| XGBoost Regressor | -0.7627  | 318.14 |
+
+## 📌 Observations
+- The models performed modestly due to limited features.
+- Neighborhood and room type were used as predictors.
+- Future improvements can include additional features such as `number_of_reviews`, `amenities`, etc.
 
 ## 📈 Visualizations
 
 - Price distribution plots
-- Heatmaps showing feature correlations
 - Actual vs Predicted price comparison
-
+## 📝 Future Plans
+- Include more features (amenities, reviews, availability)
+- Hyperparameter tuning for XGBoost
+- Use log-transformed target to reduce outlier effect
