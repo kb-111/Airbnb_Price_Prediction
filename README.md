@@ -8,7 +8,7 @@ The goal of this project is to build a regression model that can accurately pred
 
 ## 📂 Dataset
 
-The dataset was obtained from [Inside Airbnb](http://insideairbnb.com/) and includes:
+The dataset was obtained from [Kaggle Singapore Airbnb]([(https://www.kaggle.com/datasets/jojoker/singapore-airbnb]) and includes:
 - `price`: Target variable (cleaned to remove symbols and converted to float)
 - `neighbourhood`: The region of the listing
 - `room_type`: Type of the room (e.g., Private room, Shared room)
