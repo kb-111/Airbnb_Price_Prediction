@@ -43,5 +43,3 @@ Two models were implemented:
 - Heatmaps showing feature correlations
 - Actual vs Predicted price comparison
 
-## 📁 Project Structure
-
